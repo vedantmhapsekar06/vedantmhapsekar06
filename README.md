@@ -11,10 +11,9 @@
 ### 🚀 About Me
 
 - 🎓 B.Tech in **Artificial Intelligence & Data Science** (Honours in Cyber Security) @ K.J. Somaiya College of Engineering, Mumbai — CGPA 8.21
-- 🔭 Currently building **Nexus** — an AI-powered predictive maintenance system for jet engines using NASA's C-MAPSS dataset
+-     Built Nexus — an AI-powered predictive maintenance system for jet engines using NASA's C-MAPSS dataset
 - 💼 AI Intern @ **ICS Assure Services** — building computer vision pipelines for insurance claim processing
 - 🧠 Focused on shipping **production-style ML systems** (training → serving → dashboard), not just model notebooks
-- 🌱 Currently sharpening DSA fundamentals and deployment/MLOps skills
 - ⚡ Fun fact: I self-scraped and curated a 6-category motorcycle image dataset from scratch
 
 ---
@@ -53,14 +52,6 @@ Classified ECG signals into 5 cardiac conditions using SMOTE for class imbalance
 
 **Tools:** ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vedantmhapsekar06&show_icons=true&theme=default&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vedantmhapsekar06&layout=compact&hide_border=true" height="165"/>
-</p>
 
 ---
 
