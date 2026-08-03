@@ -11,7 +11,7 @@
 ### 🚀 About Me
 
 - 🎓 B.Tech in **Artificial Intelligence & Data Science** (Honours in Cyber Security) @ K.J. Somaiya College of Engineering, Mumbai — CGPA 8.21
--     Built Nexus — an AI-powered predictive maintenance system for jet engines using NASA's C-MAPSS dataset
+- ✅ Built Nexus — an AI-powered predictive maintenance system for jet engines using NASA's C-MAPSS dataset
 - 💼 AI Intern @ **ICS Assure Services** — building computer vision pipelines for insurance claim processing
 - 🧠 Focused on shipping **production-style ML systems** (training → serving → dashboard), not just model notebooks
 - ⚡ Fun fact: I self-scraped and curated a 6-category motorcycle image dataset from scratch
