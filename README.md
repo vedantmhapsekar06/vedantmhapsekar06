@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Vedant Mhapsekar 👋</h1>
-<h3 align="center">AI & Data Science Undergrad | Building end-to-end ML systems, not just notebooks</h3>
+<h3 align="center">AI & Data Science Undergrad s</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/vedant-mhapsekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
