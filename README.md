@@ -21,7 +21,7 @@
 ### 🛠️ Featured Projects
 
 **[Nexus — AI-Powered Predictive Maintenance for Jet Engines]-**
-End-to-end predictive maintenance system on NASA's C-MAPSS turbofan dataset — RUL regression (LSTM/XGBoost, RMSE as low as 13.69), 30-cycle failure classification (F1 up to 0.726, ROC-AUC up to 0.994), and Isolation Forest anomaly detection. Served via FastAPI to a live fleet-monitoring dashboard.
+End-to-end predictive maintenance system on NASA's C-MAPSS turbofan dataset — RUL regression , 30-cycle failure classification , and Isolation Forest anomaly detection. Served via FastAPI to a live fleet-monitoring dashboard.
 `Python` `TensorFlow/Keras` `XGBoost` `FastAPI` `HTML/JS`
 
 **Vehicle-Type Image Classifier for Insurance Claims**
