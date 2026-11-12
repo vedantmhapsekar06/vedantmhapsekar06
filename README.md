@@ -16,9 +16,8 @@
 
 Final-year B.Tech student in **Artificial Intelligence & Data Science (Honours in Cyber Security)** at K.J. Somaiya College of Engineering, Mumbai. I build end-to-end ML systems, from data collection and annotation through modelling to deployable APIs and interfaces.
 
-- 🔍 **Focus:** retrieval-augmented generation, hybrid search, and computer vision
+- 🔍 **Focus:** Artificial Intelligence and its applications
 - 🏭 **Applied experience:** AI Intern at ICS Assure Services, working on insurance claim automation
-- 🔒 **Principle:** local-first, open-source tooling and explainable, evidence-grounded outputs
 - 📫 **Open to:** AI/ML engineering roles and internships
 
 ---
