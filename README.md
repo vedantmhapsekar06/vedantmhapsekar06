@@ -49,7 +49,7 @@ Fully local screening system with a recruiter batch mode and a student feedback 
 
 `Python` `FastAPI` `Ollama (Llama 3.2)` `Sentence-Transformers` `Scikit-learn` `SQLite`
 
-🔗 [Repository](https://github.com/vedantmhapsekar06)
+🔗 [Repository](https://github.com/vedantmhapsekar06/Resume_Guard)
 
 ### 📚 ResearchFlow: Hybrid-Retrieval RAG for Research Papers
 Upload multiple papers and ask questions in natural language, with answers grounded in the source text and **page-level citations**.
@@ -59,14 +59,8 @@ Upload multiple papers and ask questions in natural language, with answers groun
 
 `Python` `FastAPI` `Ollama` `ChromaDB` `BM25` `PyMuPDF`
 
-🔗 [Repository](https://github.com/vedantmhapsekar06)
+🔗 [Repository](https://github.com/vedantmhapsekar06/Research_Flow)
 
-### ⚡ EV Charging Anomaly Detection
-Detects suspicious charging patterns, billing irregularities and timestamp-overlap conflicts, with a live monitoring dashboard.
-
-`Python` `Isolation Forest` `FastAPI` `React` `TypeScript` `MongoDB`
-
-🔗 [Repository](https://github.com/vedantmhapsekar06/ev-anomaly-detection-app)
 
 ---
 
