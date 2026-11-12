@@ -1,61 +1,108 @@
-<h1 align="center">Hi, I'm Vedant Mhapsekar 👋</h1>
-<h3 align="center">AI & Data Science Engineering Student </h3>
+<h1 align="center">Vedant Mhapsekar</h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/vedant-mhapsekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:vedant.mhapsekar06@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <b>AI & Machine Learning Engineer</b> · Computer Vision · RAG Systems · Applied NLP
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/vedant-mhapsekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:vedant.mhapsekar06@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/vedantmhapsekar06"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
 
-### 🚀 About Me
+## About
 
-- 🎓 B.Tech in **Artificial Intelligence & Data Science** (Honours in Cyber Security) @ K.J. Somaiya College of Engineering, Mumbai — CGPA 8.21
-- ✅ Built Nexus — an AI-powered predictive maintenance system for jet engines using NASA's C-MAPSS dataset
-- 💼 AI Intern @ **ICS Assure Services** — building computer vision pipelines for insurance claim processing
-- 🧠 Focused on shipping **production-style ML systems** (training → serving → dashboard), not just model notebooks
-- ⚡ Fun fact: I self-scraped and curated a 6-category motorcycle image dataset from scratch
+Final-year B.Tech student in **Artificial Intelligence & Data Science (Honours in Cyber Security)** at K.J. Somaiya College of Engineering, Mumbai. I build end-to-end ML systems, from data collection and annotation through modelling to deployable APIs and interfaces.
 
----
-
-### 🛠️ Featured Projects
-
-**[Nexus — AI-Powered Predictive Maintenance for Jet Engines]-**
-End-to-end predictive maintenance system on NASA's C-MAPSS turbofan dataset — RUL regression , 30-cycle failure classification , and Isolation Forest anomaly detection. Served via FastAPI to a live fleet-monitoring dashboard.
-`Python` `TensorFlow/Keras` `XGBoost` `FastAPI` `HTML/JS`
-
-**Vehicle-Type Image Classifier for Insurance Claims**
-7-class vehicle classifier (ConvNeXt-Small) achieving 94.4% test accuracy, with CLIP-based zero-shot filtering to validate image framing and improve dataset quality pre-training.
-`PyTorch` `ConvNeXt` `CLIP` `Roboflow`
-
-**Digital Burnout Risk Prediction**
-ML pipeline predicting digital burnout risk from 1,000-user behavioral data — Random Forest & XGBoost with feature importance analysis, deployed via Flask.
-`Python` `Scikit-learn` `XGBoost` `Flask`
-
-**EV Anomaly & Fraud Detection System**
-Detects energy theft and unauthorized usage patterns in EV charging data using Isolation Forest, One-Class SVM, and Autoencoders; contributed to a research paper.
-`Python` `Scikit-learn` `Autoencoders`
-
-**ECG Cardiac Condition Classifier**
-Classified ECG signals into 5 cardiac conditions using SMOTE for class imbalance and Random Forest/SVM model comparison — built during a research internship.
-`Python` `Scikit-learn` `SMOTE`
+- 🔍 **Focus:** retrieval-augmented generation, hybrid search, and computer vision
+- 🏭 **Applied experience:** AI Intern at ICS Assure Services, working on insurance claim automation
+- 🔒 **Principle:** local-first, open-source tooling and explainable, evidence-grounded outputs
+- 📫 **Open to:** AI/ML engineering roles and internships
 
 ---
 
-### 🧰 Tech Stack
+## Experience
 
-**Languages:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+### AI Intern · ICS Assure Services Pvt. Ltd.
+*June 2026 – August 2026*
 
-**ML/DL:** ![Scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-white?style=flat-square) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+- Built a **7-class vehicle classifier (ConvNeXt-Small) with 94.4% test accuracy** and integrated it into a production insurance-claims system.
+- Expanded training data through web scraping and Roboflow datasets, then annotated and quality-checked it.
+- Used **CLIP zero-shot filtering** to validate full-vehicle framing in submitted images.
+- Developed a **RAG system for two-wheeler claim retrieval** using Sentence Transformers, BGE reranking and Qdrant, combining semantic search, metadata filtering and exact damage matching.
 
-**Deployment/Backend:** ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+### Research Intern · Prof. Amey Naik
+*Feb 2025 – Mar 2025*
 
-**Tools:** ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
+- Built a classifier for **5 cardiac conditions from ECG clinical features**, handling class imbalance with SMOTE and comparing Random Forest and SVM models.
 
 ---
 
-### 📫 Reach Me
+## Featured Projects
 
-- Email: vedant.mhapsekar06@gmail.com
-- LinkedIn: [vedant-mhapsekar](https://linkedin.com/in/vedant-mhapsekar)
+### 🧾 ResumeGuard: Multi-Agent Resume Screening
+Fully local screening system with a recruiter batch mode and a student feedback mode.
+- Multi-agent pipeline (analyzers, skills matching, evidence, judge, improvement) that **separates deterministic scoring from LLM commentary** for explainable results.
+- Embedding-based synonym matching, and flags skills with no supporting evidence in work history.
+- Weighted scoring over skills, experience, semantic similarity and evidence quality.
+
+`Python` `FastAPI` `Ollama (Llama 3.2)` `Sentence-Transformers` `Scikit-learn` `SQLite`
+
+🔗 [Repository](https://github.com/vedantmhapsekar06)
+
+### 📚 ResearchFlow: Hybrid-Retrieval RAG for Research Papers
+Upload multiple papers and ask questions in natural language, with answers grounded in the source text and **page-level citations**.
+- **Hybrid retrieval:** ChromaDB semantic search + BM25 with weighted score fusion.
+- Asynchronous PDF processing with overlapping chunking.
+- Conversational memory that rewrites follow-ups into standalone queries.
+
+`Python` `FastAPI` `Ollama` `ChromaDB` `BM25` `PyMuPDF`
+
+🔗 [Repository](https://github.com/vedantmhapsekar06)
+
+### ⚡ EV Charging Anomaly Detection
+Detects suspicious charging patterns, billing irregularities and timestamp-overlap conflicts, with a live monitoring dashboard.
+
+`Python` `Isolation Forest` `FastAPI` `React` `TypeScript` `MongoDB`
+
+🔗 [Repository](https://github.com/vedantmhapsekar06/ev-anomaly-detection-app)
+
+---
+
+## More Projects
+
+| Project | Summary | Stack |
+|---|---|---|
+| **ECG Classification** | 5-class cardiac condition classifier; SMOTE for imbalance, RF vs SVM comparison | Scikit-learn, SMOTE |
+| **Digital Burnout Risk Prediction** | Risk model on 1,000 users with feature-importance analysis, deployed as a Flask app | XGBoost, Flask |
+| **Mobile Sales Dashboard** | 3-page interactive dashboard with slicers, cross-filtering and drill-down | Power BI, Power Query |
+
+---
+
+## Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Languages** | Python, SQL |
+| **ML / DL** | Scikit-learn, XGBoost, PyTorch, TensorFlow/Keras, CNNs |
+| **Computer Vision** | ConvNeXt, CLIP, Roboflow |
+| **GenAI & NLP** | RAG, LangChain, Sentence Transformers, BGE, BM25, Ollama, Prompt Engineering |
+| **Vector DBs** | ChromaDB, Qdrant |
+| **Backend & Apps** | FastAPI, Flask, Streamlit, MongoDB, SQLite |
+| **Data & Viz** | Pandas, NumPy, Matplotlib, Power BI |
+| **Tools** | Git, GitHub |
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vedantmhapsekar06&show_icons=true&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vedantmhapsekar06&layout=compact&theme=tokyonight" height="165"/>
+</p>
+
+---
+
+<p align="center"><i>Building practical, explainable AI systems.</i></p>
