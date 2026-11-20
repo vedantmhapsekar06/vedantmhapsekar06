@@ -1,101 +1,81 @@
 <h1 align="center">Vedant Mhapsekar</h1>
-
+ 
 <p align="center">
-  <b>AI & Machine Learning Engineer</b> · Computer Vision · RAG Systems · Applied NLP
+  <b>AI &amp; Data Science Student · AI/ML Developer</b><br/>
+  Retrieval-Augmented Generation · Applied NLP · Machine Learning
 </p>
-
 <p align="center">
   <a href="https://www.linkedin.com/in/vedant-mhapsekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:vedant.mhapsekar06@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/vedantmhapsekar06"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
-
 ---
-
+ 
 ## About
-
-Final-year B.Tech student in **Artificial Intelligence & Data Science (Honours in Cyber Security)** at K.J. Somaiya College of Engineering, Mumbai. I build end-to-end ML systems, from data collection and annotation through modelling to deployable APIs and interfaces.
-
-- 🔍 **Focus:** Artificial Intelligence and its applications
-- 🏭 **Applied experience:** AI Intern at ICS Assure Services, working on insurance claim automation
-- 📫 **Open to:** AI/ML engineering roles and internships
-
+ 
+Final-year B.Tech student in **Artificial Intelligence & Data Science (Honours in Cyber Security)** at K.J. Somaiya College of Engineering, Mumbai. I build end-to-end ML systems: data pipelines, retrieval and modelling, and deployable APIs with clean, tested backends.
+ 
+- **Focus:** LLM applications, RAG systems, and explainable AI
+- **Approach:** deterministic logic for decisions, LLMs for language, and tests for everything in between
+- **Open to:** AI/ML internships and entry-level roles
 ---
-
-## Experience
-
-### AI Intern · ICS Assure Services Pvt. Ltd.
-*June 2026 – August 2026*
-
-- Built a **7-class vehicle classifier (ConvNeXt-Small) with 94.4% test accuracy** and integrated it into a production insurance-claims system.
-- Expanded training data through web scraping and Roboflow datasets, then annotated and quality-checked it.
-- Used **CLIP zero-shot filtering** to validate full-vehicle framing in submitted images.
-- Developed a **RAG system for two-wheeler claim retrieval** using Sentence Transformers, BGE reranking and Qdrant, combining semantic search, metadata filtering and exact damage matching.
-
-### Research Intern · Prof. Amey Naik
-*Feb 2025 – Mar 2025*
-
-- Built a classifier for **5 cardiac conditions from ECG clinical features**, handling class imbalance with SMOTE and comparing Random Forest and SVM models.
-
----
-
-## Featured Projects
-
-### 🧾 ResumeGuard: Multi-Agent Resume Screening
-Fully local screening system with a recruiter batch mode and a student feedback mode.
-- Multi-agent pipeline (analyzers, skills matching, evidence, judge, improvement) that **separates deterministic scoring from LLM commentary** for explainable results.
-- Embedding-based synonym matching, and flags skills with no supporting evidence in work history.
-- Weighted scoring over skills, experience, semantic similarity and evidence quality.
-
-`Python` `FastAPI` `Ollama (Llama 3.2)` `Sentence-Transformers` `Scikit-learn` `SQLite`
-
-🔗 [Repository](https://github.com/vedantmhapsekar06/Resume_Guard)
-
-### 📚 ResearchFlow: Hybrid-Retrieval RAG for Research Papers
-Upload multiple papers and ask questions in natural language, with answers grounded in the source text and **page-level citations**.
-- **Hybrid retrieval:** ChromaDB semantic search + BM25 with weighted score fusion.
-- Asynchronous PDF processing with overlapping chunking.
-- Conversational memory that rewrites follow-ups into standalone queries.
-
+ 
+## Major Projects
+ 
+### [ResumeGuard](https://github.com/vedantmhapsekar06/Resume_Guard) — Multi-Agent Resume Screening
+ 
+A fully local screening system with a recruiter mode (batch ranking) and a student mode (resume feedback).
+ 
+- **Multi-agent pipeline:** seven agents (JD and resume analyzers, skills matching, experience, evidence, judge, improvement) coordinated by separate recruiter and student flows.
+- **Deterministic scoring:** the LLM only extracts structured data and writes short commentary. Skills, experience, scores and labels are plain Python, so a model error can never change a result.
+- **Explainable weighted score:** skills 40%, experience 30%, semantic similarity 20%, evidence 10%, with Fit and Priority labels and a required-skill knockout rule.
+- **Resistant to keyword stuffing:** skills that are only listed earn partial credit, skills demonstrated in work bullets earn full credit, and unsupported skills are flagged for review.
+- **Reliable by design:** date-aware experience analysis (overlaps merged, gaps flagged), fault-tolerant batch processing, HTML-escaped output, and 24 unit tests that run without a model.
+`Python` `FastAPI` `Ollama (Llama 3.2)` `Sentence-Transformers` `scikit-learn` `SQLite`
+ 
+### [ResearchFlow](https://github.com/vedantmhapsekar06/Research_Flow) — Hybrid-Retrieval RAG for Research Papers
+ 
+A local chatbot for asking questions across multiple research PDFs, with answers grounded in the source text and cited by page.
+ 
+- **Structured ingestion:** page-by-page extraction and overlapping chunks (220 words, 40 overlap) that keep page and section metadata, stored in ChromaDB with a BM25 keyword index.
+- **Hybrid retrieval:** semantic search and BM25 fused with weighted Reciprocal Rank Fusion (0.6 / 0.4), absolute relevance floors, and per-paper balancing so comparison questions see every relevant paper.
+- **Grounded answers:** the model must cite `[Source N]` or return a `NOT_FOUND` marker; only the sources actually cited are returned, renumbered to match the answer.
+- **Conversational memory:** follow-up questions are rewritten into standalone search queries, with a fallback when the small model's rewrite is malformed.
+- **Robust backend:** SHA-256 de-duplication, upload validation, atomic storage writes, automatic retry of transient Ollama failures, and 44 automated tests.
 `Python` `FastAPI` `Ollama` `ChromaDB` `BM25` `PyMuPDF`
-
-🔗 [Repository](https://github.com/vedantmhapsekar06/Research_Flow)
-
-
+ 
 ---
-
-## More Projects
-
+ 
+## Other Projects
+ 
 | Project | Summary | Stack |
 |---|---|---|
-| **ECG Classification** | 5-class cardiac condition classifier; SMOTE for imbalance, RF vs SVM comparison | Scikit-learn, SMOTE |
-| **Digital Burnout Risk Prediction** | Risk model on 1,000 users with feature-importance analysis, deployed as a Flask app | XGBoost, Flask |
-| **Mobile Sales Dashboard** | 3-page interactive dashboard with slicers, cross-filtering and drill-down | Power BI, Power Query |
-
+| **ECG Classification** | Classifies ECG signals into 5 cardiac conditions from clinical features, handling class imbalance with SMOTE and comparing Random Forest and SVM. | scikit-learn, SMOTE |
+| **Digital Burnout Risk Prediction** | Predicts burnout risk for 1,000 users with feature-importance analysis, deployed as a Flask web app. | XGBoost, Flask |
+| **Mobile Sales Dashboard** | Three-page interactive dashboard with slicers, cross-filtering and drill-down from overall sales to individual models. | Power BI, Power Query |
+ 
 ---
-
+ 
 ## Tech Stack
-
+ 
 | Area | Tools |
 |---|---|
 | **Languages** | Python, SQL |
-| **ML / DL** | Scikit-learn, XGBoost, PyTorch, TensorFlow/Keras, CNNs |
+| **ML / DL** | scikit-learn, XGBoost, PyTorch, TensorFlow/Keras, CNNs |
 | **Computer Vision** | ConvNeXt, CLIP, Roboflow |
 | **GenAI & NLP** | RAG, LangChain, Sentence Transformers, BGE, BM25, Ollama, Prompt Engineering |
-| **Vector DBs** | ChromaDB, Qdrant |
+| **Vector Databases** | ChromaDB, Qdrant |
 | **Backend & Apps** | FastAPI, Flask, Streamlit, MongoDB, SQLite |
-| **Data & Viz** | Pandas, NumPy, Matplotlib, Power BI |
+| **Data & Visualization** | Pandas, NumPy, Matplotlib, Power BI |
 | **Tools** | Git, GitHub |
-
+ 
 ---
-
+ 
 ## GitHub Stats
-
+ 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vedantmhapsekar06&show_icons=true&theme=tokyonight" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vedantmhapsekar06&layout=compact&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vedantmhapsekar06&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vedantmhapsekar06&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
-
----
-
 <p align="center"><i>Building practical, explainable AI systems.</i></p>
+ 
