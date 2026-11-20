@@ -2,7 +2,7 @@
  
 <p align="center">
   <b>AI &amp; Data Science Student · AI/ML Developer</b><br/>
-  Retrieval-Augmented Generation · Applied NLP · Machine Learning
+
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/vedant-mhapsekar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
