@@ -48,10 +48,21 @@ A local chatbot for asking questions across multiple research PDFs, with answers
  
 ## Other Projects
  
-| Project | Summary | Stack |
-|---|---|---|
-| **ECG Classification** | Classifies ECG signals into 5 cardiac conditions from clinical features, handling class imbalance with SMOTE and comparing Random Forest and SVM. | scikit-learn, SMOTE |
-| **Digital Burnout Risk Prediction** | Predicts burnout risk for 1,000 users with feature-importance analysis, deployed as a Flask web app. | XGBoost, Flask |
+### [Film Finder](https://github.com/vedantmhapsekar06/Film_Finder)
+A hybrid movie recommender that shows collaborative-filtering and content-based suggestions side by side for any movie you pick.
+`Python` `ALS` `TF-IDF` `FastAPI` `TMDB API`
+ 
+### [Vidscribe](https://github.com/vedantmhapsekar06/Vidscribe)
+Turns long YouTube videos into Cornell-style study notes with an AI summary and key moments linked to real timestamps.
+`Python` `FastAPI` `BART` `Hugging Face`
+ 
+### [ECG Classification](https://github.com/vedantmhapsekar06/ECG_Project)
+Classifies ECG signals into 5 cardiac conditions from clinical features, handling class imbalance with SMOTE and comparing Random Forest and SVM.
+`scikit-learn` `SMOTE`
+ 
+### [Digital Burnout Risk Prediction](https://github.com/vedantmhapsekar06/Digital_Burnout-Screen_Time_Analysis)
+Predicts burnout risk for 1,000 users with feature-importance analysis, deployed as a Flask web app.
+`XGBoost` `Flask`
 
  
 ---
