@@ -52,7 +52,7 @@ A local chatbot for asking questions across multiple research PDFs, with answers
 |---|---|---|
 | **ECG Classification** | Classifies ECG signals into 5 cardiac conditions from clinical features, handling class imbalance with SMOTE and comparing Random Forest and SVM. | scikit-learn, SMOTE |
 | **Digital Burnout Risk Prediction** | Predicts burnout risk for 1,000 users with feature-importance analysis, deployed as a Flask web app. | XGBoost, Flask |
-| **Mobile Sales Dashboard** | Three-page interactive dashboard with slicers, cross-filtering and drill-down from overall sales to individual models. | Power BI, Power Query |
+
  
 ---
  
